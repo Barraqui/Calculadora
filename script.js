@@ -12,7 +12,7 @@ function clean() {
 
 function back() {
     let apagar = currentOperationText.innerHTML
-    currentOperationText.innerHTML = apagar.substring(0, apagar.length -1);
+    currentOperationText.innerHTML = apagar.substring(0, -1);
 }
 
 function calcular() {
