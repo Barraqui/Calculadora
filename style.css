@@ -24,14 +24,11 @@ body {
     outline: none;
     background-color: black;
     color: white;
-
-    transition: background 300ms;
 }
 
 #buttons-container > button:hover {
     background-color: #eee;
     color: #111;
-    transition: background 400ms;
 }
 
 #screen {
